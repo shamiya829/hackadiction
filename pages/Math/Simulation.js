@@ -31,7 +31,7 @@ export default class Simulation {
 		this.context.clearRect(0, 0, width, height);
 		
 		this.sequenceStart = 1;
-		this.sequenceMax = 1e12;
+		this.sequenceMax = 1e4;
 		
 		this.animate();
 	}

@@ -16,8 +16,8 @@ export default class Walker {
     
     reset() {
         this.angle = 0;
-        this.position.x = 0;
-        this.position.y = 0;
+        this.position.x = screen.width - 3000;
+        this.position.y = screen.height - 1800;
     }
 }
 
