@@ -11,7 +11,7 @@ import card7 from '../images/card7.png'
 import card8 from '../images/card8.png'
 import card9 from '../images/card9.png'
 import card10 from '../images/card10.png'
-
+import card11 from '../images/card11.png'
 export default function Home() {
   return (
     
@@ -79,7 +79,10 @@ export default function Home() {
           </a>
           
 
-
+          <a className={styles.card} href = "/collatz">
+            <h2>Collatz</h2>
+            <Image src={card11} alt="Teach" width={350} height={300}></Image>
+          </a>
 
 
           
