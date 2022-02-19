@@ -2,7 +2,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import card1 from '../images/card1.png'
-
+import card2 from '../images/card2.png'
+import card3 from '../images/card3.png'
+import card4 from '../images/card4.png'
+import card5 from '../images/card5.png'
+import card6 from '../images/card6.png'
+import card7 from '../images/card7.png'
+import card8 from '../images/card8.png'
+import card9 from '../images/card9.png'
+import card10 from '../images/card10.png'
 
 export default function Home() {
   return (
@@ -24,23 +32,56 @@ export default function Home() {
             <h2>HW Contradiction</h2>
             <Image src={card1} alt="HW Contradiction" width={350} height={300}></Image>
           </a>
-
           <a className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>Bitter Sweet</h2>
+            <Image src={card2} alt="Bitter Sweet" width={350} height={300}></Image>
           </a>
 
           <a className={styles.card}>
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Muscle Nerd</h2>
+            <Image src={card3} alt="Muscle Nerd" width={350} height={300}></Image>
           </a>
 
           <a className={styles.card}>
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>Alive but Dead</h2>
+            <Image src={card4} alt="Alive but Dead" width={350} height={300}></Image>
           </a>
+
+          <a className={styles.card}>
+            <h2>&quot;Unique&quot;</h2>
+            <Image src={card5} alt="&quot;Unique&quot;" width={350} height={300}></Image>
+          </a>
+
+          <a className={styles.card}>
+            <h2>Sky</h2>
+            <Image src={card6} alt="Sky" width={350} height={300}></Image>
+          </a>
+
+          <a className={styles.card}>
+            <h2>&quot;Red&quot;</h2>
+            <Image src={card7} alt="Red" width={350} height={300}></Image>
+          </a>
+
+          <a className={styles.card}>
+            <h2>Rubric</h2>
+            <Image src={card8} alt="Rubric" width={350} height={300}></Image>
+          </a>
+
+          <a className={styles.card}>
+            <h2>&quot;Going out of Business&quot;</h2>
+            <Image src={card9} alt="&quot;Going out of Business&quot;" width={350} height={300}></Image>
+          </a>
+
+          <a className={styles.card}>
+            <h2>Teach</h2>
+            <Image src={card10} alt="Teach" width={350} height={300}></Image>
+          </a>
+          
+
+
+
+
+          
         </div>
       </main>
 
