@@ -3,4 +3,10 @@
     display: none;
 	height: auto;
 	width: 100%;
+	padding: 5rem;
+	
+}
+.caption {
+	font-size: 1000px;
+	color: black;
 }
