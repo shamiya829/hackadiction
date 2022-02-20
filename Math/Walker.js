@@ -1,4 +1,4 @@
-import Vector2 from './Vector2'
+import Vector2 from './Vector2.js'
 
 export default class Walker {
     constructor() {
@@ -16,8 +16,7 @@ export default class Walker {
     
     reset() {
         this.angle = 0;
-        this.position.x = screen.width - 3000;
-        this.position.y = screen.height - 1800;
+        this.position.x = -100;
+        this.position.y = -100;
     }
 }
-

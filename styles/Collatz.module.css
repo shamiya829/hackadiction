@@ -3,8 +3,8 @@
     display: none;
 	height: auto;
 	width: 100%;
-	margin-left: -70%;
-	
+	padding: 5rem;
+	margin-left: 10rem;
 }
 .caption {
 	font-size: 1000px;

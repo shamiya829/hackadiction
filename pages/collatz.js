@@ -1,6 +1,6 @@
 import styles from '../styles/Collatz.module.css'
 import React, {useEffect} from "react";
-import Simulation from './Math/Simulation.js'
+import Simulation from '../Math/Simulation.js'
 function Collatz() {
 
     
